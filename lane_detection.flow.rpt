@@ -1,0 +1,122 @@
+Flow report for lane_detection
+Sun Nov  1 12:32:46 2026
+Quartus Prime Version 25.1std.0 Build 1129 10/21/2025 SC Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+  8. Flow Messages
+  9. Flow Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2025  Altera Corporation. All rights reserved.
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, the Altera Quartus Prime License Agreement,
+the Altera IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Altera and sold by Altera or its authorized distributors.  Please
+refer to the Altera Software License Subscription Agreements 
+on the Quartus Prime software download page.
+
+
+
++--------------------------------------------------------------------------------------+
+; Flow Summary                                                                         ;
++------------------------------------+-------------------------------------------------+
+; Flow Status                        ; Successful - Sun Nov  1 12:32:37 2026           ;
+; Quartus Prime Version              ; 25.1std.0 Build 1129 10/21/2025 SC Lite Edition ;
+; Revision Name                      ; lane_detection                                  ;
+; Top-level Entity Name              ; lane_detection_top                              ;
+; Family                             ; Cyclone IV E                                    ;
+; Device                             ; EP4CE115F29C7                                   ;
+; Timing Models                      ; Final                                           ;
+; Total logic elements               ; 3,665 / 114,480 ( 3 % )                         ;
+;     Total combinational functions  ; 3,310 / 114,480 ( 3 % )                         ;
+;     Dedicated logic registers      ; 2,003 / 114,480 ( 2 % )                         ;
+; Total registers                    ; 2013                                            ;
+; Total pins                         ; 149 / 529 ( 28 % )                              ;
+; Total virtual pins                 ; 0                                               ;
+; Total memory bits                  ; 2,077,635 / 3,981,312 ( 52 % )                  ;
+; Embedded Multiplier 9-bit elements ; 12 / 532 ( 2 % )                                ;
+; Total PLLs                         ; 1 / 4 ( 25 % )                                  ;
++------------------------------------+-------------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 11/01/2026 12:30:26 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; lane_detection      ;
++-------------------+---------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                ;
++-------------------------------------+----------------------------------------+----------------+--------------------+------------+
+; Assignment Name                     ; Value                                  ; Default Value  ; Entity Name        ; Section Id ;
++-------------------------------------+----------------------------------------+----------------+--------------------+------------+
+; COMPILER_SIGNATURE_ID               ; 140926352383241.179351642600788        ; --             ; --                 ; --         ;
+; NUM_PARALLEL_PROCESSORS             ; All                                    ; --             ; --                 ; --         ;
+; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --             ; lane_detection_top ; Top        ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family) ; --             ; lane_detection_top ; Top        ;
+; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family) ; --             ; lane_detection_top ; Top        ;
+; TOP_LEVEL_ENTITY                    ; lane_detection_top                     ; lane_detection ; --                 ; --         ;
++-------------------------------------+----------------------------------------+----------------+--------------------+------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                        ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis ; 00:00:53     ; 1.0                     ; 4892 MB             ; 00:01:22                           ;
+; Fitter               ; 00:01:05     ; 1.1                     ; 5918 MB             ; 00:01:31                           ;
+; Assembler            ; 00:00:05     ; 1.0                     ; 5018 MB             ; 00:00:05                           ;
+; Timing Analyzer      ; 00:00:08     ; 1.6                     ; 4968 MB             ; 00:00:10                           ;
+; Total                ; 00:02:11     ; --                      ; --                  ; 00:03:08                           ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                    ;
++----------------------+------------------+------------+------------+----------------+
+; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
++----------------------+------------------+------------+------------+----------------+
+; Analysis & Synthesis ; Vedank           ; Windows 10 ; 10.0       ; x86_64         ;
+; Fitter               ; Vedank           ; Windows 10 ; 10.0       ; x86_64         ;
+; Assembler            ; Vedank           ; Windows 10 ; 10.0       ; x86_64         ;
+; Timing Analyzer      ; Vedank           ; Windows 10 ; 10.0       ; x86_64         ;
++----------------------+------------------+------------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off lane_detection -c lane_detection
+quartus_fit --read_settings_files=off --write_settings_files=off lane_detection -c lane_detection
+quartus_asm --read_settings_files=off --write_settings_files=off lane_detection -c lane_detection
+quartus_sta lane_detection -c lane_detection
+
+
+

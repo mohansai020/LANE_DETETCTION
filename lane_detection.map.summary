@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Sun Nov  1 12:31:21 2026
+Quartus Prime Version : 25.1std.0 Build 1129 10/21/2025 SC Lite Edition
+Revision Name : lane_detection
+Top-level Entity Name : lane_detection_top
+Family : Cyclone IV E
+Total logic elements : 4,153
+    Total combinational functions : 3,277
+    Dedicated logic registers : 2,114
+Total registers : 2114
+Total pins : 149
+Total virtual pins : 0
+Total memory bits : 2,077,635
+Embedded Multiplier 9-bit elements : 12
+Total PLLs : 1

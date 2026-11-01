@@ -1,0 +1,16 @@
+Fitter Status : Successful - Sun Nov  1 12:32:28 2026
+Quartus Prime Version : 25.1std.0 Build 1129 10/21/2025 SC Lite Edition
+Revision Name : lane_detection
+Top-level Entity Name : lane_detection_top
+Family : Cyclone IV E
+Device : EP4CE115F29C7
+Timing Models : Final
+Total logic elements : 3,665 / 114,480 ( 3 % )
+    Total combinational functions : 3,310 / 114,480 ( 3 % )
+    Dedicated logic registers : 2,003 / 114,480 ( 2 % )
+Total registers : 2013
+Total pins : 149 / 529 ( 28 % )
+Total virtual pins : 0
+Total memory bits : 2,077,635 / 3,981,312 ( 52 % )
+Embedded Multiplier 9-bit elements : 12 / 532 ( 2 % )
+Total PLLs : 1 / 4 ( 25 % )
